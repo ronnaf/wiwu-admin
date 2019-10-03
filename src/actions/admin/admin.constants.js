@@ -1,0 +1,5 @@
+export const SIGNIN = 'SIGNIN'
+export const SIGNOUT = 'SIGNOUT'
+export const SIGNUP = 'SIGNUP'
+export const EDIT_ADMIN = 'EDIT_ADMIN'
+export const SET_CURRENT_USER = 'SET_CURRENT_USER'

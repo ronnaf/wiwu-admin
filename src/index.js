@@ -4,9 +4,8 @@ import { Provider } from 'react-redux'
 import App from './App'
 import configureStore from './configureStore'
 import { Router } from 'react-router-dom'
-import { createBrowserHistory } from 'history'
+import { history } from './history'
 
-const history = createBrowserHistory()
 const store = configureStore()
 
 ReactDOM.render(
